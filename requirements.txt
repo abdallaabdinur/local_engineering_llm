@@ -1,0 +1,20 @@
+streamlit
+pandas
+plotly
+psycopg2-binary
+sqlglot
+python-dotenv
+openai
+prometheus-client
+cachetools
+scikit-learn
+fastapi
+pydantic
+requests
+uvicorn
+
+# Optional: only used if REDIS_URL is set (see distributed_store.py).
+# Safe to leave installed even when unused - distributed_store.py
+# degrades to in-memory caching automatically if this isn't installed
+# or Redis isn't reachable.
+redis
